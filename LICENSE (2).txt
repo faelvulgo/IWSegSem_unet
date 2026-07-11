@@ -6,7 +6,7 @@ Permission is hereby granted to any person obtaining a copy of this software and
 
 CONDITIONS AND RESTRICTIONS:
 
-1. PROHIBITION OF REDISTRIBUTION: You are not authorized to redistribute, sub-license, rent, lease, lend, or share this software, whether modified or unmodified, directly to third parties. Any and all sharing must be done by directing the new user exclusively to the author's original repository: https://github.com/faelvulgo/InternalWaves_dev
+1. PROHIBITION OF REDISTRIBUTION: You are not authorized to redistribute, sub-license, rent, lease, lend, or share this software, whether modified or unmodified, directly to third parties. Any and all sharing must be done by directing the new user exclusively to the author's original repository: https://github.com/faelvulgo/IWSegSem_unet
 
 2. PROHIBITION OF DERIVATIVE WORKS: You may not modify, adapt, translate, or create derivative works based upon this software for the purpose of public distribution or publication under your own authorship.
 

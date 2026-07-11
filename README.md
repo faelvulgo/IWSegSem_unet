@@ -180,4 +180,4 @@ This project is proprietary software. You are welcome to download and use the co
 
 However, commercial use, modification for public distribution, and direct redistribution of the source code are **strictly prohibited**. Any sharing must be done by linking directly to this original repository.
 
-For full legal terms, please refer to the [LICENSE](https://github.com/faelvulgo/Plotters_dev/edit/main/LICENSE.txt).
+For full legal terms, please refer to the [LICENSE](https://github.com/faelvulgo/IWSegSem_unet/edit/main/LICENSE.txt).

@@ -173,3 +173,11 @@ python DataSet.py
   random split/sample each run.
 - `SeparateData.py` moves files rather than copying them; keep a backup
   of your patch folders if you need to re-run the split.
+
+## License
+
+This project is proprietary software. You are welcome to download and use the code strictly for **personal and private purposes**. 
+
+However, commercial use, modification for public distribution, and direct redistribution of the source code are **strictly prohibited**. Any sharing must be done by linking directly to this original repository.
+
+For full legal terms, please refer to the [LICENSE](https://github.com/faelvulgo/Plotters_dev/edit/main/LICENSE.txt).

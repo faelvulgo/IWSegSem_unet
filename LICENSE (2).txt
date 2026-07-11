@@ -1,0 +1,15 @@
+PROPRIETARY SOFTWARE LICENSE TERMS
+
+Copyright (c) 2026 Rafael Silva Bittencourt. All rights reserved.
+
+Permission is hereby granted to any person obtaining a copy of this software and associated documentation files to use the software strictly for PERSONAL, PRIVATE, AND NON-COMMERCIAL purposes.
+
+CONDITIONS AND RESTRICTIONS:
+
+1. PROHIBITION OF REDISTRIBUTION: You are not authorized to redistribute, sub-license, rent, lease, lend, or share this software, whether modified or unmodified, directly to third parties. Any and all sharing must be done by directing the new user exclusively to the author's original repository: https://github.com/faelvulgo/InternalWaves_dev
+
+2. PROHIBITION OF DERIVATIVE WORKS: You may not modify, adapt, translate, or create derivative works based upon this software for the purpose of public distribution or publication under your own authorship.
+
+3. PROHIBITION OF COMMERCIAL USE: This software may not be sold, rented, bundled into commercial packages, or used to generate direct or indirect revenue without the prior written authorization of the copyright holder.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.

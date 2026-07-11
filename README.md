@@ -1,13 +1,13 @@
 # SAR Internal Wave Segmentation Pipeline
 
-This repository contains a small pipeline for preparing a dataset of
+This repository contains a pipeline for preparing a dataset of
 Sentinel-1 IW (Interferometric Wide swath) SAR images and training a
 semantic segmentation model to detect **internal wave** signatures in
 the ocean surface.
 
 The pipeline takes you from raw manual annotations (LabelMe JSON files)
 all the way to a PyTorch-ready `Dataset`/`DataLoader`, through four
-scripts that are meant to be run **in order**:
+scripts that are meant to be run **in order** (further updates will be made to this repository for adding all the other scripts to complete the pipeline of a full trained U-Net):
 
 ```
 1. ConvJson.py       Annotations (JSON)  -> Binary masks (PNG)

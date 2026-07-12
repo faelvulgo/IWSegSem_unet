@@ -130,3 +130,5 @@ def ConvertJson(images_dir, jsons_dir, masks_output_dir):
 # Script entry point: run the conversion using the directories configured
 # at the top of the file.
 ConvertJson(images_dir, jsons_dir, masks_output_dir)
+
+#teste

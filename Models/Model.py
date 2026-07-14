@@ -1,6 +1,6 @@
 import segmentation_models_pytorch as smp
 
-# Criamos um dicionário mapeando nomes para as classes do SMP
+# Dictionary mapping decoder names to their corresponding classes in the segmentation_models_pytorch library.
 DECODERS = {
     "unet": smp.Unet,
     "unetplusplus": smp.UnetPlusPlus,
@@ -17,17 +17,17 @@ def build_segmentation_model(
     """
     Cria qualquer modelo de segmentação do SMP e sua função de pré-processamento.
     """
-    # 1. Normaliza o nome para evitar problemas com maiúsculas/minúsculas
+    # Normalize the decoder name to lowercase for case-insensitive matching
     name_lower = decoder_name.lower()
     
     if name_lower not in DECODERS:
         disponiveis = ", ".join(DECODERS.keys())
         raise ValueError(f"Decoder '{decoder_name}' não suportado. Escolha entre: {disponiveis}")
     
-    # 2. Busca a classe do modelo correspondente (ex: smp.Unet ou smp.FPN)
+    # Search for the corresponding model class based on the decoder name
     model_class = DECODERS[name_lower]
     
-    # 3. Instancia o modelo dinamicamente
+    # Instatiate the model with the specified parameters
     model = model_class(
         encoder_name=encoder_name,
         encoder_weights=encoder_weights,
@@ -35,7 +35,7 @@ def build_segmentation_model(
         activation=activation
     )
     
-    # 4. Busca a função de pré-processamento (que depende apenas do encoder)
+    # Search the preprocessing function for the specified encoder and weights
     preprocessing_fn = smp.encoders.get_preprocessing_fn(
         encoder_name, 
         encoder_weights
@@ -44,5 +44,3 @@ def build_segmentation_model(
     print(model)
 
     return model, preprocessing_fn
-
-build_segmentation_model(decoder_name="unet", encoder_name="resnet34", encoder_weights="imagenet", activation=None, classes=1)
